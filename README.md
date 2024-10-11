@@ -8,9 +8,9 @@ This **NetExec** module is designed to search for files named **"credentials"** 
 - Perfect for security audits and penetration testing focused on AWS configuration.
 
 ### Installation
-git clone
-cd aws-credentials
-cp aws-credentials.py /usr/lib/python3/dist-packages/nxc/modules/
+git clone https://github.com/dev-fortress/aws-credentials.git  
+cd aws-credentials  
+cp aws-credentials.py /usr/lib/python3/dist-packages/nxc/modules/  
 
 ### Usage:
 1. NetExec winrm IP-Address -u username -p password -M aws-credentials
