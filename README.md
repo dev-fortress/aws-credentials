@@ -17,7 +17,7 @@ cd aws-credentials
 ```
 
 ```bash
-cp aws-credentials.py /usr/lib/python3/dist-packages/nxc/modules/  
+cp aws-credentials.py /home/username/NetExec/lib/python3.12/site-packages/nxc/modules/  
 ```
 
 ### Usage:
