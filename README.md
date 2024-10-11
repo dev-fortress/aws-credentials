@@ -21,8 +21,8 @@ cp aws-credentials.py /usr/lib/python3/dist-packages/nxc/modules/
 ```
 
 ### Usage:
-1. NetExec winrm IP-Address -u username -p password -M aws-credentials
-2. NetExec winrm IP-Address -u username -p password -M aws-credentials -o SEARCH_PATH=C:\\Users\\username\\pruebas\\
+1. ```bash NetExec winrm IP-Address -u username -p password -M aws-credentials  ```
+2. ```bash NetExec winrm IP-Address -u username -p password -M aws-credentials -o SEARCH_PATH=C:\\Users\\username\\pruebas\\  ```
 3. Review the returned paths to analyze the files found.
 
 ## Additional Resources
