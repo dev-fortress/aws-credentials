@@ -1,4 +1,4 @@
-## AWS Credentials Finder (Windows)
+## AWS Credentials Finder
 
 This **NetExec** module is designed to search for files named **"credentials"** on remote servers running **Windows**. It is ideal for locating AWS configuration files in security environments, allowing quick identification of the paths where these critical files are stored.
 
