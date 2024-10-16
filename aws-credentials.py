@@ -1,5 +1,3 @@
-from csv import reader
-
 class NXCModule:
     """
     Search for aws credentials files on linux and windows machines
