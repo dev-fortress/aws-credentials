@@ -28,8 +28,8 @@ NetExec ssh IP-Address -u username -p password -M aws-credentials
 ```
 
 ```bash 
-NetExec winrm IP-Address -u username -p password -M aws-credentials -o SEARCH_PATH=C:\\Users\\username\\pruebas\\  
-NetExec ssh IP-Address -u username -p password -M aws-credentials -o SEARCH_PATH=/home/username/  
+NetExec winrm IP-Address -u username -p password -M aws-credentials -o SEARCH_PATH_WIN=C:\\Users\\username\\pruebas\\  
+NetExec ssh IP-Address -u username -p password -M aws-credentials -o SEARCH_PATH_LINUX=/home/username/  
 ```
 
 Review the returned paths to analyze the files found.
